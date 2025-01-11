@@ -1,8 +1,8 @@
 import { useReducer } from "react";
 import { Route, Routes, useNavigate } from "react-router-dom";
-import Header from './Header'
-import Booking from "./Booking";
-import BookingConfirmation from "./BookingConfirmation"
+import Header from './components/Header'
+import Booking from "./components/Booking";
+import BookingConfirmation from "./components/BookingConfirmation"
 
 function Main() {
     const seedRandom = function(date) {
