@@ -18,6 +18,7 @@ props.dispatch(e);
     <section>
         <form onSubmit={handleSubmit}>
             <fieldset>
+            <h1>Reservation Form</h1>
                 <div>
                 <label htmlFor="book-date">Choose date:</label>
                 <input id="book-date" type='date' value={date} required onChange={(e) => handleChange(e.target.value)}></input>
@@ -25,7 +26,7 @@ props.dispatch(e);
                 <div>
                     <label htmlFor="book-time">Choose time:</label>
                     <select id="book-time" value={time} onChange={e=> setTime(e.target.value)}>
-                        <option value="">select a time</option>
+                        <option id='booking-option' value="">select a time</option>
                         {
                             props.availableTimes.availableTimes.map(availableTimes => {
                                 return <option key={availableTimes}>{availableTimes}</option>

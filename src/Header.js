@@ -16,7 +16,7 @@ function Header() {
                     <p>
                         We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist. 
                     </p>
-                    <Link to="/booking"><button aria-label='On Click'>reserve Table</button></Link>
+                    <Link to="/booking"><button aria-label='On Click' id='reserve-button'>reserve Table</button></Link>
                 </div>
                 <div className='banner-img' >
                     <img src={bannerImage}alt='banner image'></img>
