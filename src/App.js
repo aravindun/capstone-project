@@ -1,9 +1,9 @@
 import './App.css';
 import React from 'react';
-import Nav from './Nav';
+import Nav from './components/Nav';
 import Main from './Main';
-import Menu from './Menu'
-import Footer from './Footer'
+import Menu from './components/Menu'
+import Footer from './components/Footer'
 
 
 function App() {
